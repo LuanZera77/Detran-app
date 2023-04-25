@@ -1,0 +1,51 @@
+body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#titulo{
+    color:rgb(255, 255, 255);
+    padding: 30px;
+}
+#principal{
+    border-style: solid;
+    border-color: rgba(13,138,5,1);
+    border-width: 5px;
+    border-radius: 15px;
+    width: 400px;
+    padding: 30px;
+
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,105,1,1) 75%, rgba(13,138,5,1) 100%);
+
+    margin: 10% auto;
+
+    text-align: center;
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#formularios{
+    border-top: 5px;
+}
+label{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    text-transform: bold;
+}
+.form{
+    margin-bottom: 10px;
+}
+#entrar, #cadastro{
+    
+    color: rgba(13,138,5,1);
+    border-color: rgb(236, 27, 0);
+    font-weight: bold;
+
+    text-align: center;
+    width: 100px;
+    margin-top: 15px;
+
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+}

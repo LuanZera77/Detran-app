@@ -1,0 +1,51 @@
+Route::get("/home", function(){
+    return "Tela principal";
+});
+
+Route::prefix("carro")->group(function(){
+
+    Route::get("/", function(){
+        return "Raiz de carro";
+    })->name('carros');
+
+    Route::get("/cadastro", function(){
+        return "Cadastro de carro";
+    })->name("carro.register");
+
+    Route::get("/edit", function(){
+        return "Edição de carro";
+    })->name('carro.edit');
+});
+
+Route::prefix("infracao")->group(function(){
+
+    Route::get("/", function(){
+        return "Raiz de infração";
+    })->name('infracoes');
+
+    Route::get("/cadastro", function(){
+        return "Cadastro de infração";
+    })->name('infracao.register');
+
+    Route::get("/edit", function(){
+        return "Edição de infração";
+    })->name('infracao.edit');
+    
+
+});
+
+Route::prefix("multa")->group(function(){
+
+    Route::get('/', function(){
+        return "Raiz de multa";
+    })->name('multas');
+
+    Route::get("/cadastro", function(){
+        return "Cadastro de multa";
+    })->name('multa.register');
+
+    Route::get("/edit", function(){
+        return "Edição de multa";
+    })->name('multa.edit');
+
+});

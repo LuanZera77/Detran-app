@@ -1,0 +1,29 @@
+body{
+    font-size:1em;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,105,1,1) 75%, rgba(13,138,5,1) 100%);
+}
+#principal{
+    color: white;
+    text-align: center;
+    border: 3px outset white;
+    width: 400px;
+    height: auto;
+    box-shadow: 6px 4px 2px white;
+    
+    border: 3px outset white;
+    border: groove 50px none;
+    border-radius: 2em;
+
+    margin: 15% 40%;
+}
+input,select{
+    margin-bottom: 15px;
+}
+.botao{
+    margin-top: auto;
+}
+label{
+    margin-right: 5px;
+}
