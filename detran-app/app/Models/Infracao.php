@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Infracao extends Model
 {
     use HasFactory;
+
+    public function multas(): HasMany{
+        return $this->hasMany(Multa::class);
+    }
 }
